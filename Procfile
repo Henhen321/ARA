@@ -1,2 +1,1 @@
-worker: npm start
-worker 2: unzip session.zip
+worker: unzip session.zip && npm install && npm start &&
